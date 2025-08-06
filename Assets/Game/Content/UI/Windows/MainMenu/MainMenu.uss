@@ -1,0 +1,29 @@
+.background {
+    background-color: rgb(38, 38, 38);
+}
+
+.stat-label {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    margin-top: 10px;
+}
+
+.upgrade-button {
+    margin-top: 15px;
+    background-color: rgba(7, 101, 0, 0.75);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 20px;
+    -unity-font-style: normal;
+}
+
+.upgrade-button:hover {
+    background-color: rgb(34, 111, 32);
+}
+
+.upgrade-button:active {
+    background-color: rgb(0, 65, 0);
+}

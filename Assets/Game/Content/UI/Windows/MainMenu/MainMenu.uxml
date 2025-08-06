@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Game/Content/UI/Windows/MainMenu/MainMenu.uss?fileID=7433441132597879392&amp;guid=d54dbaf63eceb5945b97de21c16d9f07&amp;type=3#MainMenu" />
+    <ui:VisualElement name="Root" style="flex-grow: 1;">
+        <ui:VisualElement name="Background" enabled="true" class="background" style="flex-grow: 1; bottom: 0; height: 100%; left: 0; right: 0; justify-content: flex-start; width: 100%; transform-origin: center; flex-basis: auto; position: absolute; top: 0;" />
+        <ui:VisualElement name="RootUpgrade" style="flex-grow: 1; height: 600px; top: 50%; left: 50%; width: 800px; background-color: rgba(0, 0, 0, 0.5); translate: -50% -50%; right: 50%; bottom: 50%; position: absolute; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px;">
+            <ui:VisualElement name="TitleText" style="flex-grow: 1; position: relative; height: 0; width: 100%; font-size: 32px; -unity-text-align: upper-center; color: rgb(255, 255, 255); background-color: rgb(51, 51, 51); padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 0; border-bottom-left-radius: 0; top: auto;">
+                <ui:Label text="Adaptation Project" name="TitleText" style="color: rgb(255, 255, 255); -unity-text-align: middle-center; font-size: 24px; position: relative; border-top-width: 0; top: auto; translate: 0% 0; left: auto; justify-content: flex-start; align-items: auto; flex-wrap: nowrap; flex-direction: column; height: 100%; text-overflow: clip; white-space: nowrap; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="HeroStats" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 85%;">
+                <ui:VisualElement name="Container" style="flex-grow: 1; top: 50%; left: 50%; height: 400px; position: absolute; right: 50%; bottom: 50%; width: 400px; translate: -50% -50%; -unity-text-align: middle-left; justify-content: center;">
+                    <ui:Label text="Strength: 10" name="Strength_Label" class="stat-label" />
+                    <ui:Label text="Agility: 8" name="Agility_Label" class="stat-label" />
+                    <ui:Label text="Intelligence: 12" name="Intelligence_Label" class="stat-label" />
+                    <ui:Button text="Upgrade Hero" name="Upgrade_Button" class="upgrade-button" style="margin-top: 20px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
